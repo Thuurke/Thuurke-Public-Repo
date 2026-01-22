@@ -12,3 +12,5 @@ if ($cert) {
 $subject = (($cert | Select-Object Subject).Subject).TrimStart("CN=")
 
 Write-Host "$subject is the cert subject."
+
+Write-Host "Even testen"
